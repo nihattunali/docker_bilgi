@@ -1,5 +1,7 @@
 ## Docker Komutları
-
+sfsf
+sdfgsdg
+dsfgsdfg
 ### Genel Komutlar
 - Docker daemon başlatılması 
   `docker -d`
