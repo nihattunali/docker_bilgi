@@ -11,7 +11,7 @@
 ### Images
 
 - Dockerfile 'dan image oluşturma
-`docker build -t <image_adı>` .
+`docker build -t <image_adı> .`
 - Cache 'siz Dockerfile'dan Image oluşturma
 `docker build -t <image_adı> . -no-cache`
 - Lokaldeki image'ların listelenmei
