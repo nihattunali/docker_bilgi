@@ -23,25 +23,25 @@
 
 ### Containers
 
-- Bir image'dan container oluşturulması ve çalıştırılması
+- Bir image'dan container oluşturulması ve çalıştırılması  
   `docker run --name <container_adı>`
-- Bir container'ın host'dan ulaşılacak port tanımlanmasının yapılması ve çalıştırılması
+- Bir container'ın host'dan ulaşılacak port tanımlanmasının yapılması ve çalıştırılması  
   `docker run -p <host_port>:<container_port> <image_adı>`
-- Container'ın arka planda çalıştırılması
+- Container'ın arka planda çalıştırılması  
   `docker run -d <image_adı>`
-- Bir container'ın başlatma ve durdurma
+- Bir container'ın başlatma ve durdurma  
   `docker start|stop <container_adı> (ya da container-id)`
-- Durdurulmuş bir container'ın kaldırılması
+- Durdurulmuş bir container'ın kaldırılması  
   `docker rm <container_adı>`
-- Çalışan bir container'ın shell komut satırının aktif edilmesi
+- Çalışan bir container'ın shell komut satırının aktif edilmesi  
   `docker exec -it <container_adı>`
-- Çalışan bir container'ın log'larının izlenmesi
+- Çalışan bir container'ın log'larının izlenmesi  
   `docker logs -f <container_adı>`
-- Çalışan bir container'ın bilgilerinin alınması
+- Çalışan bir container'ın bilgilerinin alınması  
   `docker inspect <container_adı> (ya da container-id)`
-- Çalışan container'ların listelenmesi
+- Çalışan container'ların listelenmesi  
   `docker ps`
-- Tüm container'ların listelenmesi
+- Tüm container'ların listelenmesi  
   `docker ps --all`
-- Çalışan container'ların kullanım (disk/memory/vb.) değerleri
+- Çalışan container'ların kullanım (disk/memory/vb.) değerleri  
 `docker container stats`
