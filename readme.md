@@ -1,26 +1,24 @@
 ## Docker Komutları
-sfsf  
-sdfgsdg
-dsfgsdfg
+ 
 ### Genel Komutlar
-- Docker daemon başlatılması 
+- Docker daemon başlatılması  
   `docker -d`
-- Docker yardım dosyası
+- Docker yardım dosyası  
   `docker --help`
-- Docker hakkında detaylı sistem bilgisi
+- Docker hakkında detaylı sistem bilgisi  
   `docker info`
 
 ### Images
 
-- Dockerfile 'dan image oluşturma
+- Dockerfile 'dan image oluşturma  
   `docker build -t <image_adı> .`
-- Cache 'siz Dockerfile'dan Image oluşturma
+- Cache 'siz Dockerfile'dan Image oluşturma  
   `docker build -t <image_adı> . -no-cache`
-- Lokaldeki image'ların listelenmei
+- Lokaldeki image'ların listelenmei  
   `docker images`
-- Bir image'ın silinmesi
+- Bir image'ın silinmesi  
   `docker rmi <image_adı>`
-- Kullanılmayan (container edilmemiş) Image'ların silinmesi
+- Kullanılmayan (container edilmemiş) Image'ların silinmesi  
   `docker image prune`
 
 ### Containers
