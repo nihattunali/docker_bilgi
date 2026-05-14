@@ -1,5 +1,5 @@
 ## Docker Komutları
-sfsf
+sfsf  
 sdfgsdg
 dsfgsdfg
 ### Genel Komutlar
