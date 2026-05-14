@@ -1,9 +1,7 @@
 ## Docker Komutları
 
 ### Genel Komutlar
-- Docker daemon başlatılması
-  
-`docker -d`
+- Docker daemon başlatılması  `docker -d`
 - Docker yardım dosyası
 `docker --help`
 - Docker hakkında detaylı sistem bilgisi
